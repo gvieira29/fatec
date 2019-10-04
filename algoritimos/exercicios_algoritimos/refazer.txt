@@ -1,5 +1,0 @@
-condicional_ex_03
-condicional_ex_05
-
-lista04_ex_condicional_01
-lista04_ex_condicional_03

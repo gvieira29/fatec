@@ -10,32 +10,31 @@ int main (void)
     scanf ("%f", &y);
     printf ("\n Insira o valor de Z...: ");
     scanf ("%f", &z);
-    
-    if ((x + y) > z && (y + z) > x && (z + x) > y)
+
+    if (x + y > z && x + z > y && y + z > x)
     {
-        printf ("\n Pode formar um Triangulo ");
+        printf ("\n Pode formar um triangulo ");
 
         if (x == y && x == z && y == z)
         {
-            printf ("\n == Equilatero ");
+            printf ("\n EQUILATERO ");
         }
-        else if (x == y && x == z)
+        else if (x == y || x == z || y == z)
         {
-            printf ("\n == Isosceles ");
+            printf ("\n ISOCELES ");
         }
         else if (x != y && x != z && y != z)
         {
-            printf ("\n == Escaleno ");
+            printf ("\n ESCALENO ");
         }
         else
         {
-            printf ("\n -999");
-            //Erro nao progamado
+            printf ("\n NULO");
         }
     }
     else
     {
-        printf ("\n Nao pode formar um Triangulo");
+        printf ("\n Nao pode formar um triangulo ");
     }
     printf ("\n");
     return 0;

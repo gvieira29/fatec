@@ -16,8 +16,15 @@ int main (void)
 
     pagar = (preco * consumo);
 
-    printf ("\n Cosumidor N.%i ", cod);
-    printf ("\n Total a Pagar R$%.2f", pagar);
+    if (pagar <= 11.20)
+    {
+        printf ("\n Consumo abaixo do mínimo. R$11,20");
+    }
+    else
+    {
+        printf ("\n Cosumidor N.%i ", cod);
+        printf ("\n Total a Pagar R$%.2f", pagar);
+    }
     printf ("\n ");
     return 0;
 }
