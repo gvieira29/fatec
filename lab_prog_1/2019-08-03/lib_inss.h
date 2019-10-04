@@ -1,0 +1,22 @@
+float calc_inss(float renda){
+    float inss;
+    
+    if(renda > 0){
+        if(renda <= 1751.82){
+		    inss = (renda * 0.08);
+	    }
+        else if(renda > 1751.82 && renda <= 2919.72){
+		    inss = (renda * 0.09);
+	    }   
+        else if(renda > 2919.72 && renda <= 5839.45){
+		    inss = (renda * 0.11);
+        }   
+        else{
+   		    inss = 642.34;
+   	    }
+        return inss;
+    }
+    else {
+        inss = -999;
+    }
+}

@@ -1,0 +1,17 @@
+separar em 2 etapas
+
+1 verificar todos os fatores que interferem na temperatura
+2 verificar todos os fatores que interferem no ambiente
+
+1 - residencia ou comercial
+2 - regial do brasil
+xxx - 3 - casa ou apartamento 
+xxx - 4 - laje
+xxx - 5 - tamanho do ambiente
+xxx - 6 - quantidade de pessoas
+xxx - 7 - quantidade de eletronicos
+xxx - 8 - quantidade de lampadas
+xxx - 9 - qual tipo de lampada
+xxx - 10 - janela
+xxx - 11 - cortina
+12 - incidencia de sol

@@ -1,0 +1,12 @@
+casa ou apartamento, 
+laje, 
+metragem, 
+quantidade de pessoas, 
+quantidade de aparelhos eletrônicos, 
+quantidade de lâmpadas, 
+tipo da lâmpada, 
+janelas, 
+cortinas, 
+região do Brasil, 
+ambiente residencial ou comercial, 
+incidência do sol, sol da manhã/tarde, etc

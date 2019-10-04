@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+main(){
+	char aluno1[30], aluno2[30], aluno3[30];
+	float nota1, nota2, nota3;
+	printf("Digite o nome do primeiro aluno: ");
+	scanf("%s", &aluno1);
+	printf("Digite o nome do segundo aluno: ");
+	scanf("%s", &aluno2);	
+	printf("Digite o nome do terceiro aluno: ");
+	scanf("%s", &aluno3);
+	printf("Agora digite suas respectivas notas na ordem\n");
+	printf("A nota de %s: ", aluno1);
+	scanf("%f", &nota1);
+	printf("A nota de %s: ", aluno2);
+	scanf("%f", &nota2);
+	printf("A nota de %s: ", aluno3);
+	scanf("%f", &nota3);
+	printf("As notas de %s, %s e %s, sao na respectiva ordem\n%.1f, %.1f e %.1f\n", aluno1, aluno2, aluno3, nota1, nota2, nota3);
+	return 0;
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+main(){
+	float numero, quadrado, cubo, raiz;
+		
+		printf("Insira um numero (Deve ser positivo e maior que zero): ");
+		scanf("%f", &numero);
+			quadrado = numero * numero;
+			cubo =  (numero * numero) * numero;
+			raiz =  sqrt(numero);
+		printf("O valor do quadrado e de %.1f\n", quadrado);
+		printf("O valor do cubo e de %.1f\n",  cubo);
+		printf("O valor da raiz e de %.0f\n", raiz);
+	return 0;
+}

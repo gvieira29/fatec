@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+	int x, y;
+	printf("Digite um numero: ");
+	scanf("%i", &x);
+		y = (x * 2);
+	printf("O Dobro do valor digitado e %i", y);
+	return 0;		
+}

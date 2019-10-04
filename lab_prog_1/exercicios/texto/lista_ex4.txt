@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+main(){
+	
+	float c, f;
+	
+	printf("Digite a temperatura equevalente a graus Farenheit: ");
+	scanf("%f", &f);
+		c = (f - 32) / 1.8;
+	printf("A temperatura em graus Celsius e equivalente a: %.1f", c);
+	return 0;
+}
