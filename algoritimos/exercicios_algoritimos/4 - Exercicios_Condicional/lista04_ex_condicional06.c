@@ -15,6 +15,21 @@ int main (void)
     scanf ("%f", nota2);
     printf ("\n Insira a 3 Nota...: ");
     scanf ("%f", nota3);
-    rintf ("\n");
+
+    mediafinal = (nota1 + nota2 + nota3) / 3;
+
+    if (mediafinal >= 8)
+    {
+        printf ("\n Media Final: %.1f, CONCEITO: A ", mediafinal);
+    }
+    else if (mediafinal >= 5 && mediafinal < 8)
+    {
+        printf ("\n Media Final: %.1f, CONCEITO: B ", mediafinal);
+    }
+    else if (mediafinal < 5)
+    {
+        printf ("\n Media Final: %.1f, CONCEITO: C ", mediafinal);
+    }
+    printf ("\n");
     return 0;   
 }
